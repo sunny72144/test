@@ -1,0 +1,16 @@
+{
+  "name": "newrelic-apm-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "NEW_RELIC_APP_NAME=node-app NEW_RELIC_LICENSE_KEY=c7700368a12c41ed9d81bd7723604a8cFFFFNRAL node -r newrelic index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.1",
+    "newrelic": "^12.8.0"
+  }
+}
